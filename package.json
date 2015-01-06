@@ -1,0 +1,38 @@
+{
+  "name": "petname",
+  "description": "Private, personal pet names for your trusted sites to protect you from phishing.",
+  "keywords": [
+    "browser",
+    "crypto",
+    "petname",
+    "phishing"
+  ],
+  "author": "Tim Taylor <tim@tool-man.org>",
+  "version": "0.0.1",
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/toolbear/petname/master/LICENSE"
+    },
+    {
+      "type": "Unlicense",
+      "url": "https://raw.github.com/toolbear/petname/master/UNLICENSE"
+    }
+  ],
+  "main": "./lib/petname",
+  "bin": {
+    "petname": "./bin/petname
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/toolbear/petname.git"
+  },
+  "bugs": {
+    "url": "https://github.com/toolbear/petname/issues"
+  },
+  "homepage": "https://github.com/toolbear/petname"
+}
